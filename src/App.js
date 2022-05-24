@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+
+import ButtonComponent from './components/ButtonComponent';
+import ImageComponent from './components/ImageComponent';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return ( 
+    <>
+    <ButtonComponent label="Simon"/>
+    <ImageComponent src="https://st4.depositphotos.com/1719108/20414/i/1600/depositphotos_204143362-stock-photo-cartoon-happy-royal-couple-castle.jpg" alt="Image failed to load" />
+    </>
+    
   );
 }
 
